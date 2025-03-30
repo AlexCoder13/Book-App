@@ -30,6 +30,9 @@ final class PreviewView: UIViewController {
         
         view.addSubview(lottieView)
         lottieView.play()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            //
+        }
     }
     
 }
